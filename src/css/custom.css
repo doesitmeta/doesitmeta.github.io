@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -6,7 +9,9 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+/*   --ifm-font-family-base: 'Minecraft', sans-serif; */
+  --ifm-font-family-base: 'Press Start 2P';
+  --ifm-color-primary: #22345D ;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -15,11 +20,16 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+
+  
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+/*   --ifm-color-primary:  #5158bb ; */
+  --ifm-font-family-base: 'Press Start 2P';
+  --ifm-color-primary: #22345D ;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -27,4 +37,49 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  
+	
+
+}
+
+
+/* html[data-theme='light'] {
+  --ifm-background-color: #ffffff6a;
+} */
+
+.navbar__link {
+	color:#F72585;
+	font-weight: var(--ifm-font-weight-semibold);
+}
+.navbar__link [data-theme='dark'] {
+	color:#ffffff;
+	font-weight: var(--ifm-font-weight-semibold);
+}
+
+.navbar__link:hover, .navbar__link--active {
+	color: #D4FF00;
+	text-decoration: none;
+}
+
+.footer {
+	color: #880044 ;
+}
+
+.footer {
+	background-color: #22345d ;
+  color:#F72585;
+  white-space: pre-wrap;
+	padding: var(--ifm-footer-padding-vertical) var(--ifm-footer-padding-horizontal);
+}
+
+.footer__link-item {
+  color: #D4FF00;
+	line-height: 2;
+}
+.footer__link-item:hover {
+  color:#F72585;
+}
+
+.markdown {
+  --ifm-font-family-base: 'Open Sans', sans-serif; 
 }
