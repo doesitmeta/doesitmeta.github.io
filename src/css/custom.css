@@ -1,5 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/minecraft-4');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('http://fonts.cdnfonts.com/css/dinpro-black');
 
 /**
  * Any CSS included here will be global. The classic template
@@ -81,5 +82,11 @@
 }
 
 .markdown {
-  --ifm-font-family-base: 'Open Sans', sans-serif; 
+  font-family: 'DINPro-Black', sans-serif;
+  line-height: 55px;
+  font-size: 23px;
+}
+h1 {
+	font-size: var(--ifm-h1-font-size);
+  color: #22345D;
 }

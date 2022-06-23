@@ -37,8 +37,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
         },
         blog: false,
         theme: {
@@ -124,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Metaspaces, TU Berlin. \n Built with 💜 .`,
+        copyright: `Copyright © ${new Date().getFullYear()} Metaspaces, TU Berlin. \n Built with ♥️`,
       },
       prism: {
         theme: lightCodeTheme,
