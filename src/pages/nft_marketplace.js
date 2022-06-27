@@ -13,7 +13,7 @@ export default function Hello() {
           fontSize: '20px',
         }}>
         <p>
-          coming soon ;))
+          coming soon ;)
         </p>
       </div>
     </Layout>
