@@ -50,6 +50,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+      },
       navbar: {
         style: 'primary',
         title: '',
@@ -68,7 +71,7 @@ const config = {
           
           
           {to: '/treasure_hunt', label: 'Treasure_Hunt', position: 'left'},
-          {to: '/nft_marketplace', label: 'NFT_Marketplace', position: 'left'},
+          {href: 'https://doesitmeta.github.io/marketplace/', label: 'NFT_Marketplace', position: 'left'},
           {
             href: 'https://github.com/doesitmeta',
             label: 'GitHub',
@@ -114,7 +117,7 @@ const config = {
               },
               {
                 label: 'NFT Marketplace',
-                to: '/nft_marketplace',
+                href: 'https://doesitmeta.github.io/marketplace/',
               },
               {
                 label: 'GitHub',

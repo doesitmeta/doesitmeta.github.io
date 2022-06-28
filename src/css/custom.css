@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('http://fonts.cdnfonts.com/css/dinpro-black');
 
@@ -12,6 +12,9 @@
 :root {
 /*   --ifm-font-family-base: 'Minecraft', sans-serif; */
   --ifm-font-family-base: 'Press Start 2P';
+  --meta-magenta: #F72585 ; 
+  --meta-blue: #22345D;
+  --meta-yellow: #D4FF00;
   --ifm-color-primary: #22345D ;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -21,8 +24,8 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  
-
+  --header-color: var(--meta-blue);
+  --little-home-hover:var(--meta-magenta);
   
 }
 
@@ -38,47 +41,44 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --header-color: var(--meta-yellow);
+  --ifm-breadcrumb-color-active: var(--meta-yellow);
+  --little-home-hover: var(--meta-magenta);
   
 	
 
 }
 
 
-/* html[data-theme='light'] {
-  --ifm-background-color: #ffffff6a;
-} */
+html[data-theme='dark'] {
+  --ifm-background-color: var(black)
+}
 
 .navbar__link {
-	color:#F72585;
-	font-weight: var(--ifm-font-weight-semibold);
-}
-.navbar__link [data-theme='dark'] {
-	color:#ffffff;
+	color: var(--meta-magenta);
 	font-weight: var(--ifm-font-weight-semibold);
 }
 
+
 .navbar__link:hover, .navbar__link--active {
-	color: #D4FF00;
+	color: var(--meta-yellow);
 	text-decoration: none;
 }
 
-.footer {
-	color: #880044 ;
-}
 
 .footer {
-	background-color: #22345d ;
-  color:#F72585;
+	background-color: var(--meta-blue) ;
+  color:var(--meta-magenta);
   white-space: pre-wrap;
 	padding: var(--ifm-footer-padding-vertical) var(--ifm-footer-padding-horizontal);
 }
 
 .footer__link-item {
-  color: #D4FF00;
+  color: var(--meta-yellow);
 	line-height: 2;
 }
 .footer__link-item:hover {
-  color:#F72585;
+  color:var(--meta-magenta);
 }
 
 .markdown {
@@ -88,5 +88,32 @@
 }
 h1 {
 	font-size: var(--ifm-h1-font-size);
-  color: #22345D;
+  color:var(--header-color);
+}
+
+.menu__link {
+  color:var(--meta-magenta);
+	flex: 1;
+	line-height: 1.25;
+}
+
+.clean-btn {
+  color:var(--meta-yellow);
+	cursor: pointer;
+	font-family: inherit;
+}
+
+.menu__link:hover {
+	text-decoration: none;
+	color: var(--meta-yellow);
+	transition: color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+	background: var(--ifm-breadcrumb-item-background-active);
+	color: var(--ifm-breadcrumb-color-active);
+}
+
+a:hover {
+	color: var(--little-home-hover);
 }
