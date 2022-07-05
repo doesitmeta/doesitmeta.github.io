@@ -1,11 +1,16 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+// @ts-ignore
 const lightCodeTheme = require('prism-react-renderer/themes/github');
+// @ts-ignore
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+
+
+
   title: 'Does it meta?',
   tagline: 'NFTs are cool',
   url: 'https://doesitmeta.github.io',
@@ -28,6 +33,8 @@ const config = {
     locales: ['en'],
   },
 
+  
+
   presets: [
     [
       'classic',
@@ -47,18 +54,20 @@ const config = {
     ],
   ],
 
+  // @ts-ignore
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    // @ts-ignore
     ({
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: 'light',
       },
       navbar: {
         style: 'primary',
         title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/cuube-loogo200x200.svg',
         },
         items: [
           {
@@ -83,34 +92,12 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Does it META ?',
             items: [
               {
                 label: 'Tutorial',
                 to: '/docs/meta',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              }, 
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
                 label: 'Treasure Hunt',
                 to: '/treasure_hunt',
@@ -119,12 +106,30 @@ const config = {
                 label: 'NFT Marketplace',
                 href: 'https://doesitmeta.github.io/marketplace/',
               },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/channel/UCpksmtvlhhzLWv98DMTYbVw',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://instagram.com/doesitmeta_tuberlin',
+              }, 
+              {
+                label: 'TikTok',
+                href: 'https://vm.tiktok.com/ZMNrKa663',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/doesitmeta',
               },
             ],
           },
+
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Metaspaces, TU Berlin. \n Built with ♥️`,
       },
@@ -133,6 +138,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+// @ts-ignore
 };
 
 module.exports = config;

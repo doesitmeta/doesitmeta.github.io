@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
+//const zebi = data-theme;
 export default function Hello() {
   return (
     <Layout title="Hello" description="Hello React Page">
@@ -12,9 +13,9 @@ export default function Hello() {
           height: '50vh',
           fontSize: '20px',
         }}>
-        <p>
-          coming soon ;))
-        </p>
+{/*         <div> 
+        {}
+        </div> */}
       </div>
     </Layout>
   );
