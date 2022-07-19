@@ -8,10 +8,10 @@ NFT is the abbreviation for "Non-Fungible Token", which means "non-exchangeable 
 
 | | | 
 |:-------------------------:|:-------------------------:|
-|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/02.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/03.jpg"/>
-|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/01.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/04.jpg"/>
-|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/11.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/12.jpg"/>
-|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/13.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/14.jpg"/>
-|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/15.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/08.jpg"/>
-|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/09.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/10.jpg"/>
-|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/16.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/meta/17.jpg"/>
+|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/01.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/02.jpg"/>
+|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/03.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/04.jpg"/>
+|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/05.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/06.jpg"/>
+|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/07.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/08.jpg"/>
+|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/09.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/10.jpg"/>
+|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/11.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/12.jpg"/>
+|<img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/13.jpg"/>   |  <img width="1604"  src="https://raw.githubusercontent.com/doesitmeta/doesitmeta.github.io/main/docs/NFTs/14.jpg"/>
