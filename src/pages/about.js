@@ -29,42 +29,42 @@ const NamesList4 = [
   { img_src : require("@site/static/img/impressum/Charlotte_schink.png").default, name : "Charlotte_schink"} ,
   { img_src : require("@site/static/img/impressum/Connor_Sisett.png").default, name : "Connor_Sisett"} ,
   { img_src : require("@site/static/img/impressum/Danercia_da_Cunha_Braganca.png").default, name : "Danercia_da_Cunha_Braganca"} ,
+  { img_src : require("@site/static/img/DIM-22/292668649_1113276942595282_8122996247480842952_n.jpg").default, name : "DIM-22"} ,
   { img_src : require("@site/static/img/impressum/Edzhe_Ayyaldaz.png").default, name : "Edzhe_Ayyaldaz"} ,
-  { img_src : require("@site/static/img/impressum/Hamza_Messaoudi.png").default, name : "Hamza_Messaoudi"} ,
 ];
 const NamesList5 = [
+  { img_src : require("@site/static/img/impressum/Hamza_Messaoudi.png").default, name : "Hamza_Messaoudi"} ,
   { img_src : require("@site/static/img/impressum/Hanna_Greeves.png").default, name : "Hanna_Greeves"} ,
   { img_src : require("@site/static/img/impressum/Jakob_Holtz.png").default, name : "Jakob_Holtz"} ,
   { img_src : require("@site/static/img/impressum/Jessica_Zollna.png").default, name : "Jessica_Zollna"} ,
   { img_src : require("@site/static/img/impressum/Julia_Bakucz.png").default, name : "Julia_Bakucz"} ,
-  { img_src : require("@site/static/img/impressum/Kevin_Tornau.png").default, name : "Kevin_Tornau"} ,
 ];
 const NamesList6 = [
+  { img_src : require("@site/static/img/impressum/Kevin_Tornau.png").default, name : "Kevin_Tornau"} ,
   { img_src : require("@site/static/img/impressum/Len_Focken.png").default, name : "Len_Focken"} ,
   { img_src : require("@site/static/img/impressum/Madina_Dahtaeva.png").default, name : "Madina_Dahtaeva"} ,
   { img_src : require("@site/static/img/impressum/Mia_Evron.png").default, name : "Mia_Evron"} ,
   { img_src : require("@site/static/img/impressum/Minji_kim.png").default, name : "Minji_kim"} ,
-  { img_src : require("@site/static/img/impressum/Nicolas_Weber_Colussi.png").default, name : "Nicolas_Weber_Colussi"} ,
 ];
 const NamesList7 = [
+  { img_src : require("@site/static/img/impressum/Nicolas_Weber_Colussi.png").default, name : "Nicolas_Weber_Colussi"} ,
   { img_src : require("@site/static/img/impressum/Noa_Kirsch.png").default, name : "Noa_Kirsch"} ,
   { img_src : require("@site/static/img/impressum/Radostina_Hristova.png").default, name : "Radostina_Hristova"} ,
   { img_src : require("@site/static/img/impressum/Sandra_Urthel.png").default, name : "Sandra_Urthel"} ,
   { img_src : require("@site/static/img/impressum/Sarah_Moeller.png").default, name : "Sarah_Moeller"} ,
-  { img_src : require("@site/static/img/impressum/Sarah_Schaeffner.png").default, name : "Sarah_Schaeffner"} ,
 ];
 const NamesList8 = [
+  { img_src : require("@site/static/img/impressum/Sarah_Schaeffner.png").default, name : "Sarah_Schaeffner"} ,
   { img_src : require("@site/static/img/impressum/Sergei_Glushchenko.png").default, name : "Sergei_Glushchenko"} ,
   { img_src : require("@site/static/img/impressum/Stefan_Gehrt.png").default, name : "Stefan_Gehrt"} ,
   { img_src : require("@site/static/img/impressum/Talia_Tsuk.png").default, name : "Talia_Tsuk"} ,
   { img_src : require("@site/static/img/impressum/Valesa_Petkova.png").default, name : "Valesa_Petkova"} ,
-  { img_src : require("@site/static/img/impressum/Vanessa_Rodriguez.png").default, name : "Vanessa_Rodriguez"} ,
 ];
 const NamesList9 = [
+  { img_src : require("@site/static/img/impressum/Vanessa_Rodriguez.png").default, name : "Vanessa_Rodriguez"} ,
   { img_src : require("@site/static/img/impressum/Vincent_Jetzinger.png").default, name : "Vincent_Jetzinger"} ,
   { img_src : require("@site/static/img/impressum/Yoel_Gaft.png").default, name : "Yoel_Gaft"} ,
   { img_src : require("@site/static/img/impressum/Yotam_Berkovitz.png").default, name : "Yotam_Berkovitz"} ,
-  { img_src : require("@site/static/img/impressum/placeholder.png").default, name : ""} ,
   { img_src : require("@site/static/img/impressum/placeholder.png").default, name : ""} ,
 
 ];

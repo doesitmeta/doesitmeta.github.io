@@ -73,7 +73,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "meta",
+            docId: "Tutorial",
             position: "left",
             label: "Tutorial",
           },
@@ -104,7 +104,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/meta",
+                to: "/docs/Tutorial",
               },
               {
                 label: "Treasure_Hunt",
