@@ -1,31 +1,36 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import Iframe from "react-iframe";
 
 const FeatureList = [
   {
-    Svg: require("@site/static/img/docs.svg").default,
+    Svg1: require("@site/static/img/docs.svg").default,
+    Svg2: require("@site/static/img/docs_1.svg").default,
     link: "/docs/meta",
   },
   {
-    Svg: require("@site/static/img/treasure_1.svg").default,
+    Svg1: require("@site/static/img/treasure_1.svg").default,
     link: "treasure_hunt",
   },
   {
-    Svg: require("@site/static/img/marketplace_1.svg").default,
-    link: "https://doesitmeta.github.io/marketplace/",
+    Svg1: require("@site/static/img/marketplace_1.svg").default,
+    link: "https://testnets.opensea.io/collection/nft-sketch-collection",
     newtab_target: "_blank",
     newtab_rel: "noreferrer noopener",
   },
 ];
 
-function Feature({ Svg, link, newtab_target, newtab_rel }) {
+function Feature({ Svg1, Svg2, link, newtab_target, newtab_rel }) {
+
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
         <a href={link} target={newtab_target} rel={newtab_rel}>
-          <Svg className={styles.featureSvg} role="img" />
+          <Svg1 className={styles.featureSvg} role="img"
+          />
         </a>
+
       </div>
     </div>
   );
@@ -43,8 +48,8 @@ export default function HomepageFeatures() {
           ))}
         </div>
 
-
       </div>
     </section>
+    
   );
 }

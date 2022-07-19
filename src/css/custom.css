@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('http://fonts.cdnfonts.com/css/dinpro-black');
+@import url(//db.onlinewebfonts.com/c/9b609f6cc20e5e494d7cab55ed81f97a?family=DINPro-Black);
 
 /**
  * Any CSS included here will be global. The classic template
@@ -117,3 +117,12 @@ h1 {
 a:hover {
 	color: var(--little-home-hover);
 }
+
+.menu__link {
+  color: var(--meta-magenta);
+  flex: 1;
+  line-height: 1.25;
+  font-size: small;
+}
+
+

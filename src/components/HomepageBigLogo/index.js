@@ -1,4 +1,4 @@
-//import useLocalStorage from 'use-local-storage'
+
 
 import React from "react";
 import clsx from "clsx";
@@ -10,15 +10,13 @@ const BigLogoList = [
   },
 ];
 
-const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-//const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
 
 
 function BigLogo({ Svg }) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
-        <a>
+        <a href="/#features">
           <Svg className={styles.bigLogoSvg} role="img" /> 
         </a>
       </div>
@@ -30,12 +28,13 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        
+        <div className="row" >
           {BigLogoList.map((props, idx) => (
             <BigLogo key={idx} {...props} />
           ))}
 
-          <someDemo/>
+          
 
         </div>
       </div>
