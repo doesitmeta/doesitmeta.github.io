@@ -7,7 +7,7 @@ const FeatureList = [
   {
     Svg1: require("@site/static/img/docs.svg").default,
     Svg2: require("@site/static/img/docs_1.svg").default,
-    link: "/docs/meta",
+    link: "/docs/Tutorial",
   },
   {
     Svg1: require("@site/static/img/treasure_1.svg").default,

@@ -1,23 +1,23 @@
 import React from "react";
 import Layout from "@theme/Layout";
 
-import Hunt from "@site/src/components/Treasure _Hunt";
+import Hunt from "@site/src/components/TreasureHunt";
 
 
 const NamesList1 = [
-  { img_src : require("@site/static/img/treasure_hunt/01.jpg").default, name : ""} ,
-  { img_src : require("@site/static/img/treasure_hunt/06.jpg").default, name : ""} ,
-  { img_src : require("@site/static/img/treasure_hunt/02.jpg").default, name : ""} ,
+  { img_src : require("@site/static/img/treasure_hunt/01.jpg").default, name : ""  } ,
+  { img_src : require("@site/static/img/treasure_hunt/06.jpg").default, name : ""  } ,
+  { img_src : require("@site/static/img/treasure_hunt/02.jpg").default, name : ""  } ,
 
 ];
 const NamesList2 = [
-  { img_src : require("@site/static/img/treasure_hunt/04.jpg").default, name : ""} ,
-  { img_src : require("@site/static/img/treasure_hunt/07.jpg").default, name : ""} ,
-  { img_src : require("@site/static/img/treasure_hunt/05.jpg").default, name : ""} ,
+  { img_src : require("@site/static/img/treasure_hunt/04.jpg").default, name : ""  } ,
+  { img_src : require("@site/static/img/treasure_hunt/07.jpg").default, name : ""  } ,
+  { img_src : require("@site/static/img/treasure_hunt/05.jpg").default, name : ""  } ,
 
 ];
 const NamesList3 = [
-  { img_src : require("@site/static/img/treasure_hunt/03.jpg").default, name : ""} ,
+  { img_src : require("@site/static/img/treasure_hunt/03.jpg").default, name : ""  } ,
 
 ];
 

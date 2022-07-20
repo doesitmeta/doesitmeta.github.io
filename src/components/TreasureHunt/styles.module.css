@@ -1,28 +1,28 @@
-.features {
+/* .features {
   display: flex;
   align-items: center;
   padding: 2rem 0;
   height:90vh; 
   width: 100%;
-}
-@media only screen and (max-height: 996px) and (max-width: 997px) {
+} */
+/* @media only screen and (max-height: 996px) and (max-width: 997px) {
   .features {
 
     height:100vh; 
 
   }
-}
+} */
 
-.featureSvgText {
+/* .featureSvgText {
 
   font-size: 12px;
 }
 .featureSvg {
-  height: 220px;
-  width: 220px;
-}
+  height: 420px;
+  width: 420px;
+} */
 
-@media only screen and (max-width: 997px) {
+/* @media only screen and (max-width: 997px) {
   .featureSvg {
     height: 120px;
     width: 120px;
@@ -41,6 +41,6 @@
 
     font-size: 9px;
   }
-}
+} */
 
 

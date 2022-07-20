@@ -84,7 +84,7 @@ html[data-theme='dark'] {
 .markdown {
   font-family: 'DINPro-Black', sans-serif;
   line-height: 55px;
-  font-size: 23px;
+  font-size: 30px;
 }
 h1 {
 	font-size: var(--ifm-h1-font-size);
@@ -123,6 +123,11 @@ a:hover {
   flex: 1;
   line-height: 1.25;
   font-size: small;
+}
+
+.navbar__link {
+	color: var(--meta-magenta);
+	font-size: small;
 }
 
 

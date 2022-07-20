@@ -10,7 +10,6 @@ import InstagramEmbed from "react-instagram-embed";
 
 import styles from "./index.module.css";
 
-
 import Iframe from "react-iframe";
 
 export default function Home() {
@@ -22,27 +21,50 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageBigLogo />
-              <br id="features" />
-      <HomepageFeatures />
-      <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', width : '100%'}}>
-        <div >
-          <p  margin="auto">
-          check us out on ig <a href="https://instagram.com/doesitmeta_tuberlin">@doesitmeta_tuberlin</a> ;)
+      <div
+        style={{
+          textAlign: "center",
+          display: "flex",
+          justifyContent: "center",
+          width: "100%",
+        }}
+      >
+        <div>
+          <p margin="auto">
+            0/200  NFTs have been minted! 
           </p>
-          
-  </div>
-</div>
-              <br/>
-      
+        </div>
+      </div>
+      <br id="features" />
+      <HomepageFeatures />
+      <div
+        style={{
+          textAlign: "center",
+          display: "flex",
+          justifyContent: "center",
+          width: "100%",
+        }}
+      >
+        <div>
+          <p margin="auto">
+            check us out on ig{" "}
+            <a href="https://instagram.com/doesitmeta_tuberlin">
+              @doesitmeta_tuberlin
+            </a>{" "}
+            ;)
+          </p>
+        </div>
+      </div>
+      <br />
 
+      <InstagramFeed
+        token="IGQVJVQXVpLW9BSTZA6NnJmSllZAZAGphRkViVS1LQXZArcTh4RGh4MDlqV0ZADMUREWG1SUV8tUmh3OTNpR0x3cC1XMldPTXFZATkFqNUlsQTNKQWdhYXVZAX2JfSTJ3UDZAZAQTM5ODZAXRlMzRDM1SFZAFdExLQgZDZD"
+        counter="30"
+      />
 
-
-      <InstagramFeed token="IGQVJVQXVpLW9BSTZA6NnJmSllZAZAGphRkViVS1LQXZArcTh4RGh4MDlqV0ZADMUREWG1SUV8tUmh3OTNpR0x3cC1XMldPTXFZATkFqNUlsQTNKQWdhYXVZAX2JfSTJ3UDZAZAQTM5ODZAXRlMzRDM1SFZAFdExLQgZDZD"  counter="30"/> 
-
-              <br/>
-              <br/>
-              <br/>
-      
+      <br />
+      <br />
+      <br />
     </Layout>
   );
 }
