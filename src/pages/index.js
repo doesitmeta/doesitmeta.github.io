@@ -57,10 +57,7 @@ export default function Home() {
       </div>
       <br />
 
-      <InstagramFeed
-        token="IGQVJVQXVpLW9BSTZA6NnJmSllZAZAGphRkViVS1LQXZArcTh4RGh4MDlqV0ZADMUREWG1SUV8tUmh3OTNpR0x3cC1XMldPTXFZATkFqNUlsQTNKQWdhYXVZAX2JfSTJ3UDZAZAQTM5ODZAXRlMzRDM1SFZAFdExLQgZDZD"
-        counter="30"
-      />
+
 
       <br />
       <br />
